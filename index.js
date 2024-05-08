@@ -26,7 +26,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-	let humanType = prompt("Type your choice in lowercase",);
+	let humanType = prompt("Type your choice",);
 	humanInput = humanType.toLowerCase();
 	if (humanInput === "stone") {
 		humanChoice = 1;
