@@ -5,13 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Stone Paper Scissors</title>
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-    <h1>STONE PAPER SCISSORS</h1>
-    <p>To play the game</p>
-    <p>Open the developer option by right clicking and selecting inspect, then go to the console tab</p>
+    <div id="wholePage">
+        <div id="mainHeading">
+            <h1>Stone Paper Scissors</h1>
+        </div>
+        <div id="mainContent">
+            <div id="choiceDisplay">
+                <div class="humanChoice">
+                    <h2>You Chose</h2>
+                    <p id="humanChoice"></p>
+                </div>
+                <div class="computerChoice">
+                    <h2>Computer Chose</h2>
+                    <p id="computerChoice"></p>
+                </div>
+            </div>
+            <div id="gameButtons">
+                <button class="buttons" id="stone">&#9994</button>
+                <button class="buttons" id="paper">&#9995</button>
+                <button class="buttons" id="scissors">&#9996</button>
+            </div>
+            <div id="scoreBoard">
+                <div class="humanScore">
+                    <h2>Your Score : </h2>
+                    <span id="humanScore"></span>
+                </div>
+                <div class="computerScore">
+                    <h2>Computer Score : </h2>
+                    <span id="computerScore"></span>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>developed by ~
+                <span>
+                    Dev
+                </span>
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
